@@ -7,8 +7,8 @@ print("5-Pool View Bungalow")
 print("6-Family Room")
 print("7-Beach Front Bungalow")
 print("8-VIP sea View")
-a=eval(input("Nhập mã loại phòng:"))
-b=eval(input("Nhập số đêm:"))
+a=int(input("Nhập mã loại phòng:"))
+b=int(input("Nhập số đêm:"))
 if a>0&a<=8:
     if a==1: c=1260000
     elif a==2: c=1550000
